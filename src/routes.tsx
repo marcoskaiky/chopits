@@ -6,8 +6,8 @@ import {
 import { Home } from "./pages/Home"
 import { Categorias } from "./pages/Categorias"
 import { Usuarios } from "./pages/Usuarios"
-import { Sobre } from "./pages/Sobre"
 import GerenciarUsuarios from "./pages/Usuarios/Gerenciar"
+import Login from "./pages/Login"
 
 export const Rotas = () => {
     return (
@@ -15,7 +15,7 @@ export const Rotas = () => {
             <Routes>
                 <Route
                     path="/"
-                    element={<Home />}
+                    element={<Login />}
                 />
                 <Route
                     path="/categorias/:id"
@@ -26,19 +26,14 @@ export const Rotas = () => {
                     element={<Usuarios />}
                 />
                 <Route
-                    path="/sobre/:id"
-                    element={<Sobre />}
-                />
-                <Route path="/usuarios/:id"
+                    path="/usuarios/:id"
                     element={<GerenciarUsuarios />}
-
                 />
-
                 <Route
                     path="*"
                     element={<h1>404</h1>}
                 />
             </Routes>
-        </BrowserRouter >
+        </BrowserRouter>
     )
 }

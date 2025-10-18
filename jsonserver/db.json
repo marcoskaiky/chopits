@@ -1,19 +1,34 @@
 {
-  "usuarios": [
+  "users": [
     {
-      "id": 1,
-      "nome": "Markos",
-      "email": "markos@gmail.com"
+      "nome": "Udyr",
+      "email": "Udyr@gmail.com",
+      "id": 4
     },
     {
-      "id": 2,
-      "nome": "KaiQ",
-      "email": "kaiq@gmail.com"
+      "nome": "Garen",
+      "email": "garen@gmail.com"
     },
     {
-      "nome": " cavhhi",
+      "email": "vladmirbatata@gmail.com",
+      "password": "$2a$10$3kZNM1ONyQjBon07yBEwI.d8s2RVe6IDPJDpl5NH4nadx4xX8Jdua",
+      "nome": "Vladmir",
+      "permissoes": "colaborador",
+      "id": 5
+    },
+    {
+      "email": "gollllldomessi@gmail.com",
+      "password": "$2a$10$sDBJFeE3LxoCXnZHvfYtK.8O7JRBanZj2eiUMi.vJBwLVL7MEwUEO",
+      "nome": "messiiiii",
+      "permissoes": "admin",
+      "id": 6
+    },
+    {
       "email": "mkaikygarcia@gmail.com",
-      "id": 3
+      "password": "$2a$10$l/46Iqctqi/DOtjuNbjRTOJIH6HTZmyDwp8.Rp.pSaCHujB.Ififm",
+      "nome": "Marcos Kaiky ",
+      "permissoes": "admin",
+      "id": 7
     }
   ]
 }
